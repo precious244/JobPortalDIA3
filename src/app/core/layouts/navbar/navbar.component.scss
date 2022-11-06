@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+$biru : #006EFF;
+$biru_card : #ECF3FF;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+    .navbar-custom {
+        background-color: white;
+
+        .navbar-brand {
+            img {
+                margin-bottom: 8px;
+            }
+        }
+
+        .nav-item {
+            font-size: 15px;
+            font-weight: 700;
+
+            .nav-link {
+                color: black;
+            }
+
+            .active {
+                color: $biru;
+            }
+
+            .btn {
+                font-size: 15px;
+                font-weight: 700;
+
+            }
+        }
+    }
